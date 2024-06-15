@@ -1,0 +1,360 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.head
+{
+    background-image: url(images/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.logo
+{
+    cursor: pointer;
+    height: 100px;
+    width: 140px;
+    margin-left: 50px;
+   
+}
+.navbar
+{
+    width: 85%;
+    height: 18%;
+    /* background-color: lightpink; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+button{
+    color:#fbfcfd;
+    padding:10px 25px;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.content
+{
+    color:#fbfcfd;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size: 30px;
+}
+.sidebar
+{
+    width: 50px;
+    height: 100vh;
+    background: linear-gradient(84deg,#0c8eae 0%, #000729 80%);
+    position: absolute;
+    top:0;
+    right: 0;;
+}
+.social-link img, .useful-link img{
+    width: 25px;
+margin: 5px auto;
+cursor: pointer;
+
+}
+.menu
+{
+    display: block;
+    width: 25px;
+    margin:40px auto 0;
+    cursor: pointer;
+  
+}
+.social-link
+{
+    position: absolute;
+    width: 50px;
+    top:50%;
+    transform:translateY(-50%);
+    text-align: center;
+}
+.useful-link
+{
+    position: absolute;
+    bottom:30px;
+    width: 50px;
+    text-align: center;
+}
+.bubbles img
+{
+    width: 50px;
+    animation: sample 7s linear infinite;
+}
+.bubbles
+{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   position: absolute;
+   bottom:0
+
+}
+@keyframes sample
+ {
+    0%
+    {
+        transform:translateY(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+        transform: translateY(-90vh);
+    }
+}
+.bubbles img:nth-child(1)
+{
+    animation-delay: 1s;
+}
+.bubbles img:nth-child(2)
+{
+    animation-delay: 1.5s;
+    width: 25px;
+}
+
+.bubbles img:nth-child(3)
+{
+    animation-delay: 2s;
+    width: 35px;
+}
+
+.bubbles img:nth-child(4)
+{
+    animation-delay: 3s;
+    width: 40px;
+}
+
+.bubbles img:nth-child(5)
+{
+    animation-delay: 4.5s;
+}
+.bubbles img:nth-child(6)
+{
+    animation-delay: 7s;
+    width: 20px;
+}
+/* potrait */
+
+*
+{
+    margin:0;
+    padding:0;
+}
+.head{
+    background-image: url(background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+.navbar
+{
+    width: 87%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    background-color: transparent;
+    border: 1px solid white;
+    padding:10px 25px;
+    background: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    color:chartreuse
+
+}
+.content
+{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.content h1{
+    color:white;
+    font-size: 40px;
+    font-weight: bold;
+    animation: name 1s linear infinite;
+}
+.sidebar
+{
+    width:50px;
+    background: linear-gradient(84deg,#0c8eae 0%, #000729 80%);
+    position: absolute;
+    right: 0;top:0;
+    height: 100%;
+}
+.sidebar .menu
+{
+    position: absolute;
+    top:30px;
+}
+.useful-link
+{
+    bottom:20px;
+    position: absolute;
+}
+.social-link
+{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+}
+.sidebar img{
+    width: 25px;
+    padding-left: 10px;
+}
+.bubbles img{
+    width: 50px;
+    
+}
+.bubbles
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    animation: sample 7s linear infinite;
+}
+
+@keyframes sample
+ {
+    
+    0%
+    {
+        transform:translateY(0);
+        opacity: 0;
+        
+    }
+    45%{
+        opacity: 1;
+    }
+    70%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+        transform: translateY(-90vh);
+    }
+}
+.bubbles img:nth-child(1)
+{
+    animation-delay: 1s;
+}
+.bubbles img:nth-child(2)
+{
+    animation-delay: 1.5s;
+    width: 25px;
+}
+
+.bubbles img:nth-child(3)
+{
+    animation-delay: 2s;
+    width: 35px;
+}
+
+.bubbles img:nth-child(4)
+{
+    animation-delay: 3s;
+    width: 40px;
+}
+
+.bubbles img:nth-child(5)
+{
+    animation-delay: 4.5s;
+}
+.bubbles img:nth-child(6)
+{
+    animation-delay: 7s;
+    width: 20px;
+}
+
+@media screen and (max-width:450px)
+{
+    .head{
+        background-image: url("https://wallpapercave.com/wp/wp868040.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+        width: 100%;
+    } 
+    .sign{
+       
+    border: 1px solid white;
+    padding:5px;
+     border-radius: 5px;
+    cursor: pointer;
+    }
+    .sidebar
+{
+    height:50px;
+    background: linear-gradient(84deg,#0c8eae 0%, #000729 80%);
+    position: absolute;
+    bottom: 0;
+    top:auto;
+    width: 100%;
+}
+.sidebar .menu
+{
+    position: absolute;
+    top:15px;
+    left: 15px;
+}
+.useful-link
+{
+    
+    position: absolute;
+    right: 5px;
+    top:10px
+}
+.social-link
+{
+    position: absolute;
+    margin-left: 140px;
+
+}
+.sidebar img{
+    width: 25px;
+    padding-left: 10px;
+}
+}
+/* tablet */
+@media screen and (max-width:900px) and (min-width:600px)
+{
+    .content h1
+{
+    font-size: 60px;
+}
+}
+a{
+ color: white;
+ text-decoration: none;
+ font-weight: 500;
+}
